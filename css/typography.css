@@ -1,38 +1,46 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Comic Sans MS";
 }
 
 .nav-title {
+  color:rgb(141, 43, 141);
   font-weight: 700;
   font-size: 24px;
 }
 
 .button-text {
+  color:rgb(247, 59, 247);
   font-size: 14px;
   font-weight: 700;
 }
 
 .image-caption {
+  color:rgb(141, 43, 141);
   font-size: 14px;
   font-weight: 500;
 }
 
 .main-title {
+  color:rgb(141, 43, 141);
   font-size: 40px;
   font-weight: 700;
 }
 
 .subheader-text {
+  color:rgb(141, 43, 141);
   font-size: 20px;
   font-weight: 700;
 }
 
 .body-text {
+  font-family: 'Comic Sans MS';
   font-size: 16px;
   font-weight: 500;
+  color:rgb(141, 43, 141);
 }
 
 .project-card-text {
+  color:rgb(141, 43, 141);
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
