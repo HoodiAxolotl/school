@@ -3,26 +3,50 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
+	<style>
+		p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%; 
+}
+		input[type=password], select {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #cccccc00;
+  transition: 0.5s;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+		input[type=password]:focus{
+  border: 2px solid #000000;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+		input[type=button], select {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: display-outside;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+		input[type=button]:hover, select {
+  background-color: #cacaca;
+}
+	</style>
 	<script language = javascript>
 	function regulate()
 	{
-			if(document.pass.pass.value == 'Freakbob') {
-					window.location = "logged-in.html";
+			if(document.pass.pass.value == 'sillypasswordonlygoodguysknow') {
+					window.location = "logged-in";
 			}
 			else
 			{
-					window.location = "poopoo.html";
+					window.location = "poopoo";
 			}
 	}
 	</script>
@@ -38,9 +62,11 @@
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
-	
-	<form name = pass>
-	<input type = password name = pass>
-	<input type = button value = "ENTER THY PASSWORD?" onClick = "javascript:regulate();">
-	</form>
+	 <p align="center"><img src="./assets/images/google.png"
+			width="290"
+			height="100" /><p/>
+	<p align="center"><form name = pass><s/>
+	<p align="center"><input type = password name = pass><s/>
+	<p align="center"><input type = button value = "Search" onClick = "javascript:regulate();"><s/>
+	<p align="center"></form><s/>
 </html>
